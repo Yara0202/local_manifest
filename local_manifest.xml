@@ -8,13 +8,10 @@
  <remote name="ArrowOS"
  fetch="https://github.com/ArrowOS-Devices" />
 
-
  <!-- Trees -->
  <project path="device/asus/X01AD" name="device_asus_X01AD" remote="Hirokixd" revision="xdroid-twelve" />
 
-
  <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Hirokixd" revision="A-12.1" />
-
 
  <project path="kernel/asus/X01AS" name="kernel_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
 
