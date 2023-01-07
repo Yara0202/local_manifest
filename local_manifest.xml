@@ -2,17 +2,14 @@
 
 <manifest>
 
-<remote name="Hirokixd"
-
-fetch="https://github.com/Hirokixd" />
+ <remote name="Hirokixd"
+ fetch="https://github.com/Hirokixd" />
  
-  <remote name="ArrowOS"
-   fetch="https://github.com/ArrowOS-Devices" />
-
+ <remote name="ArrowOS"
+ fetch="https://github.com/ArrowOS-Devices" />
 
 
  <!-- Trees -->
-
  <project path="device/asus/X01AD" name="device_asus_X01AD" remote="Hirokixd" revision="xdroid-twelve" />
 
 
@@ -23,7 +20,5 @@ fetch="https://github.com/Hirokixd" />
 
  
  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS" revision="arrow-11.0" />
-
-
 
 </manifest>
