@@ -8,13 +8,13 @@ fetch="https://github.com/Hirokixd" />
 
  <!-- Trees -->
 
- <project path="device/asus/X01AD" name="https://github.com/Hirokixd/android_device_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
+ <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
 
 
- <project path="vendor/asus/X01AD" name="https://github.com/Hirokixd/vendor_asus_X01AD" remote="Hirokixd" revision="A-12.1" />
+ <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Hirokixd" revision="A-12.1" />
 
 
- <project path="kernel/asus/X01AS" name="https://github.com/Hirokixd/kernel_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
+ <project path="kernel/asus/X01AS" name="kernel_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
 
  
 
