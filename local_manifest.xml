@@ -2,20 +2,20 @@
 
 <manifest>
 
-<remote name="Hirokixd"
+ <!-- remote -->
+<remote name="clang"
+          fetch="https://gitlab.com/sanjeevstunner" />
 
-fetch="https://github.com/Hirokixd" />
+<remote name="Aye"
+          fetch="https://github.com/Yara0202" />
 
  <!-- Trees -->
+ <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Aye" revision="A11" />
+ <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="Aye" revision="A11" />
+ <project path="kernel/asus/X01AS" name="Kernel_Asus_X01AD-X" remote="Aye" revision="master" />
 
- <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
+ <!-- Clang --> 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
 
-
- <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Hirokixd" revision="A-12.1" />
-
-
- <project path="kernel/asus/X01AS" name="kernel_asus_X01AD" remote="Hirokixd" revision="lineage-19.1" />
-
- 
 
 </manifest>
