@@ -2,20 +2,25 @@
 
 <manifest>
         
+        <!-- remote -->
         <remote name="hd"
         fetch="https://github.com/Yara0202" />
-       
+      
         <remote name="cl"
         fetch="https://gitlab.com/Amritorock" />
-
+        
         <remote name="havoc"
         fetch="https://github.com/Havoc-Devices" />
-
+        
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="hd" revision="A11" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="hd" revision="A-11" />
-        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="havoc" revision="eleven" />
-
+        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="havoc" revision="eleven" />       
+        
+        <!-- replacement -->
+        <remove-project name="android_vendor_carbon" />
+        <project path="vendor/carbon" name="android_vendor_carbon" remote="hd" revision="cr-9.0" />
+        
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
 
