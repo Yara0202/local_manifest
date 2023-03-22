@@ -3,14 +3,14 @@
 <manifest>
         
         <remote name="hd"
-        fetch="https://github.com/Havoc-Devices" />
+        fetch="https://github.com/Yara0202" />
        
         <remote name="user"
         fetch="https://github.com/Wrdn28" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="user" revision="eleven" />
-        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="hd" revision="eleven" />
-        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="hd" revision="eleven" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="user" revision="A11" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="hd" revision="A-11" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="hd" revision="eleven" />
 
 </manifest>
