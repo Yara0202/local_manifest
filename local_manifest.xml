@@ -3,21 +3,16 @@
 <manifest>
         
         <!-- remote -->
-        <remote name="hd"
-        fetch="https://github.com/Yara0202" />
       
         <remote name="cl"
         fetch="https://gitlab.com/Amritorock" />
-        
-   <!-- <remote name="havoc"
-        fetch="https://github.com/Havoc-Devices" /> -->
         
         <remote name="gh"
         fetch="https://github.com" />
         
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="hd" revision="A11" clone-depth="1" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="hd" revision="A-11" clone-depth="1" />
+        <project path="device/asus/X01AD" name="Yara0202/android_device_asus_X01AD" remote="gh" revision="A11" clone-depth="1" />
+        <project path="vendor/asus/X01AD" name="Yara0202/vendor_asus_X01AD" remote="gh" revision="A-11" clone-depth="1" />
         <project path="kernel/asus/X01AD" name="Wrdn28/android_kernel_asus_X01AD" remote="gh" revision="terece" clone-depth="1" />       
         
         <!-- replacement -->
@@ -28,7 +23,7 @@
         <project path="hardware/qcom-caf/msm8996/display" name="ArrowOS/android_hardware_qcom_display.git" remote="gh" revision="arrow-11.0-caf-msm8996" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/media" name="ArrowOS/android_hardware_qcom_media.git" remote="gh" revision="arrow-11.0-caf-msm8996" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="gh" revision="arrow-11.0-caf-msm8996" clone-depth="1" />
-        <project path="vendor/carbon" name="android_vendor_carbon" remote="hd" revision="cr-9.0" clone-depth="1" />
+        <project path="vendor/carbon" name="Yara0202/android_vendor_carbon" remote="gh" revision="cr-9.0" clone-depth="1" />
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" clone-depth="1" />
