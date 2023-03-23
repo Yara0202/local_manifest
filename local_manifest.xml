@@ -25,9 +25,9 @@
         <remove-project name="CarbonROM/android_hardware_qcom_media" />
         <remove-project name="CarbonROM/android_hardware_qcom_audio" />
         <remove-project name="CarbonROM/android_vendor_carbon" />        
-        <project path="hardware/qcom-caf/msm8996/display" name="ArrowOS/android_hardware_qcom_display.git" remote="gh" revision="arrow-11.0-caf-msm8996" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="ArrowOS/android_hardware_qcom_media.git" remote="gh" revision="arrow-11.0-caf-msm8996" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="gh" revision="arrow-11.0-caf-msm8996" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="PixelExperience/hardware_qcom-caf_msm8996_display" revision="thirteen" remote="gh" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" revision="thirteen" remote="gh" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="PixelExperience/hardware_qcom-caf_msm8996_media" revision="thirteen" remote="gh" clone-depth="1" />   
         <project path="vendor/carbon" name="android_vendor_carbon" remote="hd" revision="cr-9.0" clone-depth="1" />
         
         <!-- Clang -->
