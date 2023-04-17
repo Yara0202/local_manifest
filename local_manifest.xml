@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-        
-        <remote name="hd"
-        fetch="https://github.com/Havoc-Devices" />
-       
-        <remote name="user"
-        fetch="https://github.com/Wrdn28" />
 
-        <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="X01AD_HAVOC_DT" remote="user" revision="eleven" />
-        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="hd" revision="eleven" />
-        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="hd" revision="eleven" />
+     <!-- Remote -->
+     <remote name="wrdn"
+     fetch="https://github.com/Wrdn28" />
+     <remote name="yara"
+     fetch="https://github.com/Yara0202" />
+     <remote name="cl"
+     fetch="https://gitlab.com/Amritorock" />
 
-</manifest>
+            <!-- Trees -->
+            <project path="device/asus/X01AD" name="devices_asus_X01AD" remote="yara" revision="master" />
+            <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="yara" revision="master" />
+            <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="wrdn" revision="terece" />
+            <remove-project name="frameworks_base" />
+            <project path="frameworks/base" name="frameworks_base" remote="yara" revision="13" />
+            <remove-project name="platform/hardware/google/camera"/>
+            <project path="hardware/google/camera" name="android_hardware_google_camera" remote="wrdn" revision="thirteen" />
+            <!-- Clang -->
+            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
