@@ -14,6 +14,7 @@
             <project path="device/asus/X01AD" name="devices_asus_X01AD" remote="yara" revision="master" />
             <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="yara" revision="master" />
             <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="wrdn" revision="terece" />
+
             <remove-project name="frameworks_base" />
             <project path="frameworks/base" name="frameworks_base" remote="yara" revision="13" />
             <remove-project name="platform/hardware/google/camera"/>
