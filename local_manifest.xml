@@ -18,7 +18,7 @@
             <remove-project name="frameworks_base" />
             <project path="frameworks/base" name="frameworks_base" remote="yara" revision="13" />
             <remove-project name="platform/hardware/google/camera"/>
-            <project path="hardware/google/camera" name="X01AD_hardware_google_camera" remote="wrdn" revision="thirteen" />
+            <project path="hardware/google/camera" name="X01AD_hardware_google_camera" remote="wrdn" revision="master" />
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
 </manifest>
