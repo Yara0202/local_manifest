@@ -4,24 +4,18 @@
         
         <!-- remote -->
         <remote name="cl"
-        fetch="https://gitlab.com/Amritorock" />
+        fetch="https://github.com/kdrag0n" />
         <remote name="me"
         fetch="https://github.com/Yara0202" />
-        <remote name="hk"
-        fetch="https://github.com/Wrdn28" />
-        <remote name="arrow"
-        fetch="https://github.com/ArrowOS" />
+        <remote name="zain"
+        fetch="https://github.com/Assunzain" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="A11" clone-depth="1" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="me" revision="A-11" clone-depth="1" />
-        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="hk" revision="terece" clone-depth="1" />       
-        
-        <!-- replacement -->
-        <remove-project name="CarbonROM/android_vendor_carbon" />
-        <project path="vendor/carbon" name="android_vendor_carbon" remote="me" revision="cr-9.0" clone-depth="1" />
-        
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="aicp-12.1-test" clone-depth="1" />
+        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A12.1" clone-depth="1" />
+        <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernel-non-oc" clone-depth="1" />       
+     
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="cl" revision="master" clone-depth="1" />
 
 </manifest>
