@@ -2,15 +2,20 @@
 
 <manifest>
         
-        <remote name="hd"
-        fetch="https://github.com/Havoc-Devices" />
-       
-        <remote name="user"
-        fetch="https://github.com/Wrdn28" />
+        <!-- remote -->
+        <remote name="cl"
+        fetch="https://github.com/kdrag0n" />
+        <remote name="me"
+        fetch="https://github.com/Yara0202" />
+        <remote name="zain"
+        fetch="https://github.com/Assunzain" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="X01AD_HAVOC_DT" remote="user" revision="eleven" />
-        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="hd" revision="eleven" />
-        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="hd" revision="eleven" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="A12.1" clone-depth="1" />
+        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A12.1" clone-depth="1" />
+        <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernel-non-oc" clone-depth="1" />       
+     
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="cl" revision="master" clone-depth="1" />
 
 </manifest>
