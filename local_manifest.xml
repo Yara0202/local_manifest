@@ -11,7 +11,7 @@
         fetch="https://github.com/Assunzain" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="aicp-12.1-test" clone-depth="1" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="derp-12.1" clone-depth="1" />
         <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A12.1" clone-depth="1" />
         <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernel-non-oc" clone-depth="1" />       
      
