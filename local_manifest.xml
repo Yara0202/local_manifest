@@ -13,8 +13,6 @@
         fetch="https://github.com/LineageOS />
 
         <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="los" />
-        
-        
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="superior-12.1" clone-depth="1" />
         <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="12.1-t" clone-depth="1" />
