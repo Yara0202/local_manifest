@@ -9,10 +9,10 @@
         fetch="https://github.com/Yara0202" />
         <remote name="zain"
         fetch="https://github.com/Assunzain" />
-        <remote name="los"
-        fetch="https://github.com/LineageOS />
+        <remote name="hals"
+        fetch="https://github.com/afterallafk" />
 
-        <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="los" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" revision="12" remote="hals" />
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="superior-12.1" clone-depth="1" />
         <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="12.1-t" clone-depth="1" />
