@@ -10,8 +10,6 @@
         <remote name="zain"
         fetch="https://github.com/Assunzain" />
 
-
-        <remove-project name="hardware_qcom_display" />
         <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-19.1-caf-msm8996" remote="github" />
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="superior-12.1" clone-depth="1" />
