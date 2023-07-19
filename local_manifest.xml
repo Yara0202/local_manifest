@@ -12,11 +12,11 @@
         <remote name="hals"
         fetch="https://github.com/afterallafk" />
         <remote name="web"
-        fetch="https://android.googlesource.com/" />
+        fetch="https://github.com/LineageOS" />
 
         
         <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
-        <project path="external/chromium-webview/prebuilt/arm64" name="platform/external/chromium-webview" remote="web" revision="master" />
+        <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="web" revision="main" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" revision="12" remote="hals" />
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="superior-12.1" clone-depth="1" />
