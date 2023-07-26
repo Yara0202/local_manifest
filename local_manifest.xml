@@ -10,6 +10,8 @@
         <remote name="zain"
         fetch="https://github.com/Assunzain" />
 
+        <remove-project name="LineageOS/android_external_rsync" />
+
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="lineage-19.1" clone-depth="1" />
         <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="12.1-t" clone-depth="1" />
